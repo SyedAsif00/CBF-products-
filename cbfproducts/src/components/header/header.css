@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  justify-content: space-between;
+}
+.cbf-logo-footprint {
+  margin-top: 20px;
+  background-color: rgb(112, 165, 113);
+}
+.cbf-logo-text {
+  font-size: 30px;
+  font-weight: bolder;
+}
