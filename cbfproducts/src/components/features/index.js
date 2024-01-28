@@ -26,7 +26,7 @@ const Features = () => {
           justifyContent: "center",
         }}
       >
-        <Grid item xs={12} sm={12} md={8} style={{}}>
+        <Grid item xs={12} sm={12} md={8}>
           <Card elevation={10}>
             <CustomSwiper />
           </Card>

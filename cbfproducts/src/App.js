@@ -6,6 +6,8 @@ import {
   SustraxUses,
 } from "./combined/index";
 import "./App.css";
+import Calculate from "./components/calculateSection/Calculate";
+import Cards from "./components/cardsSection/Cards";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <SixSteps />
         <Features />
         <SustraxUses />
+        <Calculate />
+        <Cards />
       </div>
     </div>
   );

@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./index.css";
 import { Grid, Typography, Card } from "@mui/material";
 import { sustraxMXUses } from "../../static/texts";
 import SustraxUsesImg from "../../assets/sustrax-uses.png";
+
 const SustraxUses = () => {
   const { title, listItemOne, listItemTwo, listItemThree } = sustraxMXUses;
   return (
-    <div className="sustraxmx-uses-container" style={{}}>
+    <div className="sustraxmx-uses-container">
       <div
         style={{
           display: "flex",
